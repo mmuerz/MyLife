@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="background" stylesheets="@../../../resources/home/DarkTheme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="HomeFrameControll">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" stylesheets="@../../../resources/home/DarkTheme.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+               </children>
+            </GridPane>
+         </top>
+         <left>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" />
+               </children>
+            </GridPane>
+         </bottom>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TilePane prefHeight="305.0" prefTileHeight="100.0" prefTileWidth="150.0" prefWidth="450.0">
+                     <children>
+                        <Button minHeight="50.0" minWidth="90.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Foodplan">
+                           <TilePane.margin>
+                              <Insets top="5.0" />
+                           </TilePane.margin>
+                        </Button>
+                        <Button minHeight="50.0" minWidth="90.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Calendar">
+                           <TilePane.margin>
+                              <Insets top="5.0" />
+                           </TilePane.margin>
+                        </Button>
+                        <Button minHeight="50.0" minWidth="90.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="ToDo's">
+                           <TilePane.margin>
+                              <Insets top="5.0" />
+                           </TilePane.margin>
+                        </Button>
+                        <Button minHeight="50.0" minWidth="90.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Training">
+                           <TilePane.margin>
+                              <Insets top="5.0" />
+                           </TilePane.margin>
+                        </Button>
+                        <Button minHeight="50.0" minWidth="90.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Finance">
+                           <TilePane.margin>
+                              <Insets top="5.0" />
+                           </TilePane.margin>
+                        </Button>
+                        <Button minHeight="50.0" minWidth="90.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Social">
+                           <TilePane.margin>
+                              <Insets top="5.0" />
+                           </TilePane.margin>
+                        </Button>
+                        <Button minHeight="50.0" minWidth="90.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Movies">
+                           <TilePane.margin>
+                              <Insets top="5.0" />
+                           </TilePane.margin>
+                        </Button>
+                        <Button minHeight="50.0" minWidth="90.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="120.0" text="Music">
+                           <TilePane.margin>
+                              <Insets top="5.0" />
+                           </TilePane.margin>
+                        </Button>
+                     </children>
+                  </TilePane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
