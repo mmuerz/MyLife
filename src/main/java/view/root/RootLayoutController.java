@@ -1,6 +1,6 @@
 package view.root;
 
-import controll.home.MainApplet;
+import controll.MainApplet;
 import javafx.fxml.FXML;
 
 /**
