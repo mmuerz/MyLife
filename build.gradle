@@ -1,0 +1,8 @@
+description = 'MyLife Gradle build'
+version = '1.0'
+
+task hello {
+    doLast {
+        println 'Hello, World!'
+    }
+}
